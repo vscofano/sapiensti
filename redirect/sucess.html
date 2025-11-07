@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra Confirmada | Obrigado pela sua compra!</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      background: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("img/capa_sapiens.jpg") no-repeat center center;
+      background-size: cover;
+      background-attachment: fixed;
+      transition: background-position 0.3s ease;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .checkmark {
+      font-size: 60px;
+      color: #00ffb3;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      line-height: 1.4;
+    }
+
+    .btn {
+      background-color: #2AABEE;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #229ED9;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      body {
+        background-attachment: scroll;
+      }
+
+      .container {
+        padding: 30px 20px;
+        max-width: 90%;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .btn {
+        padding: 12px 20px;
+        font-size: 0.95rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .checkmark {
+        font-size: 50px;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+
+      footer {
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="checkmark">✔️</div>
+ <h1>Pagamento Aprovado!</h1>
+    <p>Parabéns pela sua compra 🎉<br> <br>Estamos muito Felizes pela sua <strong>Sabia Decisão</strong>. <br> Já estamos preparando o seu pedido para a entrega. Em breve você receberá todas as informações. <br> <br> Acesse o Telegran Oficial da SapiensTi para retirar qualquer duvida e receber seu codigo de rastreio</p>
+
+    <a href="https://t.me/SapiensTI" class="btn" target="_blank">
+      Receber Código de Rastreio no Telegram
+    </a>
+
+    <footer>
+      Copyright © 2025 SapiensTI, Todos os direitos reservados. <a href="">Política de privacidade</a>
+    </footer>
+  </div>
+</body>
+</html>

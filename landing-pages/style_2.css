@@ -1,0 +1,530 @@
+html, body {
+  overflow-x: hidden;
+}
+ /*Start style Mobile (Celular)*/
+@media only screen and (max-width: 600px)  {
+    /*Header mobile*/
+    #titulo{
+        height: 50vh;
+        text-align: center;
+    }
+    #figure_capa{
+        height: 40vh;
+    }
+    #goku{
+        width: 100%;
+        height: 45vh;
+    }
+    #logo_dbz{
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    .conteiner_raio{
+       position: absolute;
+    }
+    #btn_header{
+        text-align: center;
+    }
+    /*End Header mobile*/
+
+    /*Description mobile*/
+    #descriptiom img{
+        width: 95%;
+    }
+    #descriptiom h2,p {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+     /*End description mobile*/
+
+    /*Start Offer mobile*/
+    #mini{
+        display: none;
+    }
+    #offer{
+        width: 90%;
+    }
+    #offer p{
+        line-height: 27px;
+    }
+    #offer h4,h3{
+        text-align: center;
+    }
+    .btn_info{
+        display: flex;
+        width: 95%;
+        margin: auto;
+    }
+    .info_2{
+        margin-left: 5px;
+    }
+    .btn_action{
+        font-size: 18px;
+    }
+    #sliders_offer{
+width: 95%;
+    }
+    .miniatura_offer{
+padding: 3px;
+    }
+     /*End offer mobile*/
+    /*BTN*/
+     .action{
+        width: 70%;
+     }
+     /*BTN*/
+
+     /*descricao*/
+     #descricao h2{
+        text-align: center;
+        margin-top: 15px;
+     }
+     iframe{
+        width: 100%;
+     }
+     
+     /*avaliacao*/
+     #avaliacao h2{
+        text-align: center;
+     }
+     #avaliacao_2{
+        width: 100%;
+     }
+     #avaliation{
+        width: 90%;
+     }
+     .box_2{
+        margin-top: 25px;
+     }
+
+      /*faq | Rodapé */
+      #faq-1{
+        position: relative;
+        top: 50px;
+      }
+      #faq details{
+        width: 95%;
+        margin: auto;
+      }
+      #rodape button{
+        margin-top: 60px;
+      }
+      #telegran{
+        width: 30%;
+      }
+      #btn_rodape{
+        
+    }
+}
+/*End style Mobile*/
+
+/*Start tablet*/
+@media only screen and (min-width: 601px) and (max-width: 999px){
+    #titulo{
+        position: relative;
+        bottom: 100px;
+        width: 95%;
+        margin: auto;
+        text-align: center;
+    }
+    #figure_capa{
+        height: 50vh;
+        width: 75%;
+        margin: auto;
+    }
+    .conteiner_raio{
+        margin-left: 60px;
+    }
+    #goku{
+        height: 50vh;
+    }
+    #descriptiom{
+        text-align: center;
+    }
+    #mini{
+        display: none;
+    }
+    #offer{
+        text-align: center;
+    }
+    #descricao{
+        text-align: center;
+    }
+    #avaliacao{
+        text-align: center;
+    }
+    #avaliacao_2{
+        margin: auto;
+    }
+    #avaliation{
+        margin-top: 50px;
+    }
+    #faq details{
+        width: 95%;
+        margin: auto;
+      }
+    
+}
+/*End tablet*/
+
+/*telas maiores*/
+@media only screen and (min-width: 1000px) and (max-width: 1199px){
+   #figure_capa{
+        height: 50vh;
+        width: 75%;
+        align-items: center;
+    }
+    .conteiner_raio{
+        position: relative;
+        width: 130%;
+        left: 200px;
+        top: 75px;
+    }
+    #goku{
+        width: 100%;
+        height: 60vh;
+    }
+    #titulo{
+        width: 80%;
+        text-align: center;
+        align-content: center;
+        margin-left: 80px;
+        height: 50vh;
+
+    }
+}
+ header{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#logo_dbz{
+    width: 75%;
+    position: relative;
+    right: 10px;
+    top: 50px;
+}
+header p{
+    color: red;
+}
+
+.off i{
+    margin-left: 15px;
+}
+.off:hover{
+    background-color: yellow;
+    color: red;
+}
+#goku{
+    filter: drop-shadow(0 10px 20px rgb(224, 247, 168) );
+    position: absolute;
+    margin-top: 50px;
+  
+}
+ header{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#logo_dbz{
+    width: 75%;
+    position: relative;
+    right: 10px;
+    top: 50px;
+}
+header p{
+    color: red;
+}
+
+.off i{
+    margin-left: 15px;
+}
+.off:hover{
+    background-color: yellow;
+    color: red;
+}
+#goku{
+    filter: drop-shadow(0 10px 20px rgb(224, 247, 168) );
+    position: absolute;
+    margin-top: 50px;
+  
+}
+
+
+/*Start animação flutuante*/
+.box {
+    animation: shock 4.5s ease-in-out infinite;
+}
+
+@keyframes shock {
+0%, 100% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(-20px);
+}
+}
+/*End animação goku voando*/
+
+.conteiner_raio{
+    text-align: center;
+}
+.conteiner_raio img{
+    display: block;
+    position: relative;
+    width: 35%;
+    left: 120px;
+    margin-top: 35px;
+}
+.image{
+    width: 80%;
+    opacity: 0;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.raio_1{
+    animation-name: fade1;
+    animation-delay: 1s;
+}
+.raio_2{
+    animation-name: fade2;
+    animation-delay: 0.5s;
+}
+.raio_3{
+    animation-name: fade3;
+    animation-delay: 0.5s;
+    margin-left: 20px;
+}
+/*Start animação raio*/
+@keyframes fade1 {
+    0% {
+        opacity: 0;
+    }
+    33.33% {
+        opacity: 1;
+    }
+    66.66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0;
+    }
+    33.33% {
+        opacity: 0;
+    }
+    66.66% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0;
+    }
+    33.33% {
+        opacity: 0;
+    }
+    66.66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*End animação raio*/
+/*End Header*/
+
+/* Start OFERTA*/
+a {
+    text-decoration: none;
+}
+
+.pagamentos img{
+    width: 12%;
+    margin-left: 5px;
+}
+#offer{
+    padding: 25px;
+}
+
+.miniatura_offer{
+    padding: 3px;
+        }
+.miniatura_offer:hover{
+    cursor: pointer;
+}
+
+.action{
+    margin: auto;
+    border-radius: 15px;
+    background-color: #43a319;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    animation: pulse 5s infinite;
+}
+.action:hover{
+    background-color: yellow;
+    color: red;
+    transition: 0.5s;
+}
+.action img{
+    width: 50px;
+    filter: drop-shadow(0 10px 20px rgb(255, 255, 255) );
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1); /* Escala original do botão */
+    }
+    50% {
+        transform: scale(1.2); /* Aumenta o tamanho em 20% */
+    }
+    100% {
+        transform: scale(1); /* Retorna ao tamanho original */
+    }
+}
+
+/* End OFERTA*/
+
+/* Start Avaliação*/
+
+ /* Estilos para as miniaturas de produtos */
+ .produto {
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+.avaliacoes{
+    display: flex;
+
+}
+/* Estilos para o modal de imagem */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: auto;
+}
+
+.modal-imagem {
+    display: block;
+    margin: 50px auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.fechar {/* botao para fechar o modal*/
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+#avaliacao img{
+    border-radius: 10px;
+}
+.miniatura{
+  width: 100%;
+  border-radius: 7px;
+}
+
+/* End Avaliação*/
+
+/*start faq*/
+#faq-1 h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+div#faq{
+    width: 50%;
+    margin: auto;
+   
+}
+
+div#faq details{
+    text-align: center;
+    
+    
+}
+
+div#faq details summary{
+    padding: 2%;
+    margin-top: 20px;
+    background-color: #1e87bb49;
+    border-radius: 10px;
+}
+
+div#faq details p{
+    padding: 2%;
+    transition: all 2s;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        background-color: white;
+    }
+    div#faq {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    div#faq {
+        width: 100%;
+    }
+}
+
+/* end faq*/
+
+
+/* Start rodape*/
+#rodape{
+    background-image: url('assets/img/geral/namek.jpg');
+    background-size: cover;
+}
+#finish{
+    background-color: #232f3e;
+    color: white;
+    line-height: 35px;
+}
+#finish p{
+    margin-top: 20px;
+}
+#telegran{
+    width: 15%;
+}
+#btn_rodape{
+    margin-bottom: 60px;
+}
+/* End rodape*/
