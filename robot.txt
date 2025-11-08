@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /redirect/
+
+Allow: /
+
+Sitemap: https://sapiensti.com/sitemap.xml
