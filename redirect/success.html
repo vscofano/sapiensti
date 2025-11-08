@@ -10,6 +10,19 @@
 
   gtag('config', 'G-L0K4ZFDWNJ');
 </script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const token = params.get('auth');
+
+  // Token esperado (deve bater com o que vem do checkout)
+  const validToken = "OK123";
+
+  if (token !== validToken) {
+    // Redireciona para a home ou página de erro
+    window.location.href = "https://sapiensti.com";
+  }
+</script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compra Confirmada | Obrigado pela sua compra!</title>
